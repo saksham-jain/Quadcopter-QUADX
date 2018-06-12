@@ -1,8 +1,6 @@
 # Quadcopter-QUADX
 ### Quadcopter using MPU6050 (Gyroscope+Acceleration Sensor+Temprature), 6-Channel Transmitter and Receiver, Arduino Nano board
 
-##### DIY quadcopter- Follow following steps :-
-
 ###### Requirements--
 Hardware:-
 1) Arduino Nano
@@ -14,6 +12,11 @@ Hardware:-
 6) Battery - 3S (11.1V) Li-Po 2200mAh
 7) 0 PCB
 8) Pin Headers and connecting Wires.
+
+Software:- 
+1) Arduino IDE
+##### DIY quadcopter- Follow following steps :-
+
 ###### STEP 1--
 
 3D print the chassis required for Quadcopter.
