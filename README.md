@@ -34,9 +34,9 @@ Now plug in Arduino in PC using USB cable and open Serial Monitor. As soon as us
 Now give integer input in Serial Monitor between 1000 to 2000.(at 1000 motor won't rotate and at 2000 motor will rotate at maximum speed)
 ###### STEP 3--
 
-Now remove ESC connection with arduino and connect MPU6050 Gyro sensor with Arduino.
+Now remove ESC connections and connect MPU6050 Gyro sensor with Arduino.
 Follow - http://www.electronoobs.com/images/Robotica/tut_9/IMU_schematic.png
-
+And Setup MultiiWii fra
 
 
   
