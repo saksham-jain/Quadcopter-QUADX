@@ -48,3 +48,27 @@ Refer - https://www.youtube.com/watch?v=9FobYWahn5M
 ###### STEP 5--
 Now check receiver channel for Roll, Pitch, Trottle, Yaw. 
 Arduino code in repository - channel_check.ino
+Refer - https://www.sparkfun.com/tutorials/348
+
+###### STEP 6--
+Now connect receiver and gyro with arduino and open Multiiwii.
+Make sure to complete step number 4.
+MPU-6050 Connections
+
+A4 << SDA
+
+A5 << SCL
+
+Receiver Connections
+
+D2 << Throttle
+
+D4 << Pitch
+
+D5 << Roll
+
+D6 << Yaw
+Refer - https://i1.wp.com/rztronics.com/wp-content/uploads/2016/12/fc-new-mw.png?resize=768%2C383
+
+Now  turn on transmitter, this will turn receiver light also. Now on changing joystick Trottle, Roll, Pitch, Yaw values should vary on MultiWii which is 1500 initially.This varying value will lie between 1000 to 2000.
+Refer - https://www.youtube.com/watch?v=PO7R_S7OfTs
