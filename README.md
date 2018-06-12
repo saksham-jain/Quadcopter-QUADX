@@ -35,8 +35,16 @@ Now give integer input in Serial Monitor between 1000 to 2000.(at 1000 motor won
 ###### STEP 3--
 
 Now remove ESC connections and connect MPU6050 Gyro sensor with Arduino.
-Follow - http://www.electronoobs.com/images/Robotica/tut_9/IMU_schematic.png
-And Setup MultiiWii fra
+Follow - http://www.electronoobs.com/images/Robotica/tut_9/IMU_schematic.png  
+Download MultiWii_2_4.rar file from repository.
+For multiWii Configuration follow - http://rztronics.com/arduino-flight-controller-for-your-quadcopter/ (Flight Controller section)
+On opening MultiWii and selecting COM port PID values will apear and on moving MPU6050 module updates can be seen on MultiWii application.
+To know what does Roll, Pitch, Yaw, Trottle means refer - http://cuongtv.com/project/Drone-Project-Part-2/
 
-
+###### STEP 4-- 
+Now bind receiver with transmitter
+Refer - https://www.youtube.com/watch?v=9FobYWahn5M
   
+###### STEP 5--
+Now check receiver channel for Roll, Pitch, Trottle, Yaw. 
+Arduino code in repository - channel_check.ino
