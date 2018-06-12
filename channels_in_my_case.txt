@@ -1,0 +1,7 @@
+CH1 -- Roll
+
+CH2 -- Pitch
+
+CH3 -- Trottle
+
+CH4 -- Yaw
