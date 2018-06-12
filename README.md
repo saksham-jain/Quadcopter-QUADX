@@ -30,7 +30,8 @@ Check pin number in code before burning.
 Process to follow after burning code in Arduino -
 Connect Li-Po battery to ESC (make sure polarity is correct other ESC may get damaged).
 ESC should beep as battery is connected.
-Now plug in Arduino in PC using USB cable and open Serial Monitor. As soon as usb cable is plugged in ESC will count number of cell in batteries by which it is powered by. We have used 3 cell battery so ESC will beep 3 times. 
+Now plug in Arduino in PC using USB cable and open Serial Monitor. As soon as usb cable is plugged in ESC will count number of cells in battery by which it is powered by. We have used 3 cell battery so ESC will beep 3 times. 
+Now give integer input in Serial Monitor between 1000 to 2000.(at 1000 motor won't rotate and at 2000 motor will rotate at maximum speed)
 ###### STEP 3--
 
 Now remove ESC connection with arduino and connect MPU6050 Gyro sensor with Arduino.
